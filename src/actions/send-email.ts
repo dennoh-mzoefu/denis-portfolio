@@ -5,7 +5,7 @@ import { Resend } from 'resend';
 import { env } from '@/env.mjs';
 import { TFormSchema } from '@/lib/form-schema';
 
-const key = env.NEXT_PUBLIC_RESEND_API_KEY || ""
+const key = env.NEXT_PUBLIC_RESEND_API_KEY || '';
 const resend = new Resend(key);
 
 export const sendEmail = async ({ email, message }: TFormSchema) => {

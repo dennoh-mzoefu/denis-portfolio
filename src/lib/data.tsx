@@ -29,11 +29,18 @@ export const projectsData = [
     title: 'ProjectGO',
     description:
       'App for managing projects and tasks with great ui and dashboard.',
-    technologies: ['Next.js', 'TypeScript', 'Redux toolkit', 'Express.Js', 'Prisma'],
+    technologies: [
+      'Next.js',
+      'TypeScript',
+      'Redux toolkit',
+      'Express.Js',
+      'Prisma',
+    ],
     links: {
       preview: 'https://master.d25kc6xwxyg1q5.amplifyapp.com/projects/1',
       github: 'https://github.com/dennoh-mzoefu/project-management',
-      githubApi: 'https://api.github.com/repos/dennoh-mzoefu/project-management',
+      githubApi:
+        'https://api.github.com/repos/dennoh-mzoefu/project-management',
     },
   },
   {
@@ -45,7 +52,7 @@ export const projectsData = [
       'Tailwind CSS',
       'Javascript',
       'Axios',
-      'Google Api'
+      'Google Api',
     ],
     links: {
       preview: 'https://enchanting-haupia-1a1edb.netlify.app/',
@@ -56,21 +63,15 @@ export const projectsData = [
   {
     image: '/projects/docs.png',
     title: 'Google Docs',
-    description: 'Online editor with synced document functionality resembling google docs.',
-    technologies: [
-      'Quill',
-      'Socket io',
-      'React.js',
-      'JavaScript',
-      'CSS',
-    ],
+    description:
+      'Online editor with synced document functionality resembling google docs.',
+    technologies: ['Quill', 'Socket io', 'React.js', 'JavaScript', 'CSS'],
     links: {
       preview: 'https://denis-google-docs.netlify.app/',
       github: 'https://github.com/dennoh-mzoefu/google-docs',
       githubApi: 'https://api.github.com/repos/dennoh-mzoefu/google-docs',
     },
   },
-
 ] as const;
 
 export const experiencesData = [
@@ -102,7 +103,6 @@ export const experiencesData = [
       'As a freelancer, I specialized in graphic design using Figma and website development using Next.js with Strapy CMS. I undertook projects independently, from design conceptualization to final implementation, ensuring client satisfaction.',
     date: '2023 - present',
   },
-
 ] as const;
 
 export const skillsData = [

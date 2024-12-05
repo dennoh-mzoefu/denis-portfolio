@@ -1,23 +1,22 @@
-'use client'
+'use client';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 
 import { Button } from '@/components/button';
 import { Icons } from '@/components/icons';
-import React from "react";
-import { Cursor, useTypewriter } from "react-simple-typewriter";
+import React from 'react';
+import { Cursor, useTypewriter } from 'react-simple-typewriter';
 
-import BackgroundCircles from "./BackgroundCircles";
-import { Header } from "./header";
-
+import BackgroundCircles from './BackgroundCircles';
+import { Header } from './header';
 
 export default function Hero() {
   const [text, count] = useTypewriter({
     words: [
       `Hello👋, am Denis Gichana`,
-      "I enjoy learning 📓✍🏻💡",
-      "I like to code; 👩🏻‍💻",
-      "I like listening to music 🎵",
+      'I enjoy learning 📓✍🏻💡',
+      'I like to code; 👩🏻‍💻',
+      'I like listening to music 🎵',
     ],
     loop: true,
     delaySpeed: 2000,
@@ -26,7 +25,6 @@ export default function Hero() {
   return (
     <div className="h-screen flex flex-col items-center">
       <div className="scroll-mt-96 h-full my-10 flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
-
         <BackgroundCircles />
         <img
           className="relative rounded-full h-32 w-32 mx-auto object-contain"
@@ -42,8 +40,6 @@ export default function Hero() {
             <span className="mr-3">{text}</span>
             <Cursor cursorColor="#785c0e" />
           </h1>
-
-
         </div>
         <motion.div
           initial={{ opacity: 0, y: 100 }}
@@ -83,7 +79,7 @@ export default function Hero() {
             </a>
           </Button>
         </motion.div>
-      </div >
-    </div >
+      </div>
+    </div>
   );
 }
