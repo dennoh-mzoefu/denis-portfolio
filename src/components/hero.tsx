@@ -47,7 +47,7 @@ export default function Hero() {
           transition={{
             delay: 0.1,
           }}
-          className="flex flex-row gap-2"
+          className="flex flex-row gap-2 z-40"
         >
           <Button asChild size="lg">
             <Link href="#contact">
@@ -57,10 +57,10 @@ export default function Hero() {
           <Button
             variant="secondary"
             size="lg"
-            className="hidden sm:flex"
+            className="hidden sm:flex cursor-pointer"
             asChild
           >
-            <a href="/Denis_Gichana-Cv.pdf" download>
+            <a className='cursor-pointer' href="/Denis_Gichana-Cv.pdf" download>
               Download CV <Icons.download className="ml-2 size-4" />
             </a>
           </Button>
