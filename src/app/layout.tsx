@@ -2,6 +2,7 @@ import '@/styles/globals.css';
 
 import { PropsWithChildren } from 'react';
 import type { Metadata } from 'next';
+import Script from 'next/script'
 
 import { ActiveSectionProvider } from '@/components/active-section-provider';
 import { ThemeProvider } from '@/components/theme-provider';
@@ -32,6 +33,20 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: PropsWithChildren) => {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-HRYM3MLT8N">
+        </Script>
+        <Script id="google-analytics">
+          {
+            `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HRYM3MLT8N');`
+          }
+        </Script>
+      </head>
       <body className={cn('min-h-screen font-sans', fonts)}>
         <ThemeProvider attribute="class">
           <ActiveSectionProvider>
