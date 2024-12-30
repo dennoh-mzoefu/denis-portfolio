@@ -23,7 +23,7 @@ export const Intro = () => {
           type: 'tween',
           duration: 0.2,
         }}
-        href="https://github.com/Skolaczk/next-starter"
+        href="https://github.com/dennoh-mzoefu/"
         className="bg-muted rounded px-3 py-1 text-sm font-medium"
       >
         🎉

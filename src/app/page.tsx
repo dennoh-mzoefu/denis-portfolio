@@ -25,7 +25,7 @@ const Home = async () => {
     <>
       <div className="container flex flex-col items-center">
         {/* <Header /> */}
-        <div className='fixed z-20'>
+        <div className="fixed z-20">
           <Header />
         </div>
         <section id="hero" className="snap-start">

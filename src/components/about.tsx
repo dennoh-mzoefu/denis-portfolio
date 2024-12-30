@@ -22,14 +22,14 @@ export const About = () => {
       <div className="-mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4">
           I&apos;m Denis Gichana, I&apos;m a front-end developer from Nairobi.
-          I&apos;ve been a software developer for over 3 years. During my Computer
-          Science bachelors degree, I decided to pursue my passion for programming.
-          Every project I take on is personal. Whether it’s solving a complex problem, building
-          something from scratch, or refining the small details that make a product truly
-          shine, I bring my creativity and dedication to the table.
-          My core stack is React, Next.js, TypeScript, and Tailwind
-          CSS. I am also familiar with Nest.js and Prisma. I am always looking
-          to learn new technologies.
+          I&apos;ve been a software developer for over 3 years. During my
+          Computer Science bachelors degree, I decided to pursue my passion for
+          programming. Every project I take on is personal. Whether it’s solving
+          a complex problem, building something from scratch, or refining the
+          small details that make a product truly shine, I bring my creativity
+          and dedication to the table. My core stack is React, Next.js,
+          TypeScript, and Tailwind CSS. I am also familiar with Nest.js and
+          Prisma. I am always looking to learn new technologies.
         </p>
         <p>
           I&apos;m open to Job opportunities where I can contribute, learn and
